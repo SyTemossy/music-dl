@@ -32,6 +32,13 @@ music-dl -i https://music.163.com/song?id=27588123 -o c:\music\ -ac -ar
 
 ```
 
+## Build
+
+#### Using python 3.x with pyinstaller
+```
+pyinstaller -F music-dl.py
+```
+
 ## 引用
 
 #### [surmon](https://github.com/surmon-chinae "surmon")
