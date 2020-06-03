@@ -23,7 +23,7 @@ P.S. 第一次发，代码写得有点乱，别介意 😱
 
 #-ac / --AutoCreate Auto create the download path(default is True), 是否自动创建下载路径（默认是）
 
-#-ar / --AutoReplace Auto Replace Illicit Characte, r Such as: \, /, :, *, ?, \", <, >, |, 自动替换非法字符，比如：\, /, :, *, ?, \", <, >, |
+#-ar / --AutoReplace Auto Replace Illicit Character, Such as: \, /, :, *, ?, \", <, >, |, 自动替换非法字符，比如：\, /, :, *, ?, \", <, >, |
 ```
 
 ## Examples
@@ -37,6 +37,9 @@ music-dl -i https://music.163.com/song?id=27588123 -o c:\music\
 music-dl -i https://music.163.com/song?id=27588123 -o c:\music\ -ac
 
 music-dl -i https://music.163.com/song?id=27588123 -o c:\music\ -ac -ar
+
+music-dl -i https://music.163.com/song?id=27588123 -o c:\music\ -ac -ar -
+#(replace with the '-')
 
 ```
 
